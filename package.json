@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@babel/cli": "^7.21.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^10.0.1"
+  },
+  "name": "aplikacjastart",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx babel --watch src --out-dir dist --presets=@babel/preset-env,@babel/preset-react"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
